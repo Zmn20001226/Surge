@@ -1,0 +1,10 @@
+#!name=iios签到
+#!desc=积分可以兑换苹果应用账号
+
+[Script]
+
+iios = type=cron, cronexp="1 0 * * *", script-path=https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/iios.js, timeout=60, wake-system=1
+
+[MITM]
+
+hostname = %APPEND% www.iios.fun
