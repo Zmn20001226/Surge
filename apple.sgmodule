@@ -1,5 +1,5 @@
 #!name=苹果DNS
-#!desc=增强苹果的连接
+#!desc=增强苹果的DNS
 
 [Host]
 *.apple.com = server:https://doh.dns.apple.com/dns-query
