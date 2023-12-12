@@ -1,0 +1,6 @@
+#!name=苹果DNS
+#!desc=增强苹果链接
+
+[Host]
+*.apple.com = server:https://doh.dns.apple.com/dns-query
+*.itunes.com = server:https://doh.dns.apple.com/dns-query
