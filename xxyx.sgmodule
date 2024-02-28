@@ -2,7 +2,7 @@
 #!desc=签到
 
 [Script]
-晓晓优选 = type=cron,cronexp=30 8 0 * * *,script-path=https://gist.githubusercontent.com/Sliverkiss/991a81be1fc8cf2a1937432be68f5521/raw/xxyx.js,script-update-interval=0
+晓晓优选 = type=cron,cronexp=30 8 0 * * *,timeout=60,script-path=https://gist.githubusercontent.com/Sliverkiss/991a81be1fc8cf2a1937432be68f5521/raw/xxyx.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% xxyx-client-api.xiaoxiaoyouxuan.com
