@@ -1,4 +1,4 @@
-#!name=高德地图三端
+#!name=高德打车
 #!desc=签到
 #!arguments=interval:"1 0 * * *",timeout:60
 
