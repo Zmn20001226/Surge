@@ -1,0 +1,7 @@
+#!name=高德地图三端
+#!desc=签到
+#!arguments=interval:"1 0 * * *",timeout:60
+
+高德地图打车签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, wake-system=1
+
+hostname = %APPEND% *.amap.com
