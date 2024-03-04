@@ -1,0 +1,10 @@
+#!name=霸王茶姬
+#!desc=签到
+#!arguments=interval:"05 00 * * *"
+
+[Script]
+霸王茶姬小程序签到 = type=cron,cronexp=00 {{{interval}}},script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js,script-update-interval=0
+霸王茶姬小程序签到2024 = type=cron,cronexp=02 {{{interval}}},script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj2024.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% qmwebapi.qmai.cn, webapi.qmai.cn
