@@ -1,0 +1,10 @@
+#!name=胖乖生活
+#!desc=签到
+#!arguments=interval:"3 0 * * *",timeout:60
+#!https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js
+
+[Script]
+胖乖生活签到 = type=cron,cronexp={{{interval}}},timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/845cf469e4762afdc83c3949be006609/raw/pgsh.js
+
+[MITM]
+hostname = userapi.qiekj.com
