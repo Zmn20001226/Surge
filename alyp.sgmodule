@@ -1,9 +1,9 @@
-#!name=晓晓优选
+#!name=阿里云盘
 #!desc=签到
-#!arguments=interval:"5 0 * * *",timeout:60
+#!https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js
 
 [Script]
-晓晓优选 = type=cron,cronexp={{{interval}}},timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/991a81be1fc8cf2a1937432be68f5521/raw/xxyx.js,script-update-interval=0
+阿里云签到 = type=cron, cronexp="0 7,11,17 * * *", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
 
 [MITM]
-hostname = %APPEND% xxyx-client-api.xiaoxiaoyouxuan.com
+hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
