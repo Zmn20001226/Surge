@@ -1,6 +1,6 @@
 #!name=霸王茶姬
 #!desc=签到
-#!arguments=interval:"05 00 * * *", timeout={{{timeout}}}
+#!arguments=interval:05 00 * * *,timeout:60
 
 [Script]
 霸王茶姬小程序签到 = type=cron,cronexp=00 {{{interval}}},timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js
