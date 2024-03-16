@@ -1,10 +1,9 @@
 #!name=阿里云盘
 #!desc=签到
-#!arguments=interval:"0 7,11,17 * * *"
-#!https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js
+#!arguments = interval:0 7,11,17 * * *, timeout:60
 
 [Script]
-阿里云签到 = type=cron, cronexp="{{{interval}}}", script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, wake-system=1
+阿里云签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, wake-system=1
 
 [MITM]
 hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
