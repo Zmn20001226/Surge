@@ -1,0 +1,7 @@
+#!name=蜜雪冰城￼
+#!desc=签到
+#!arguments=interval:"08 00 * * *", timeout:60
+
+[Script]
+蜜雪冰城小程序￼￼签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, wake-system=1
+
