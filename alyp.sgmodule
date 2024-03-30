@@ -4,6 +4,3 @@
 
 [Script]
 阿里云签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, wake-system=1
-
-[MITM]
-hostname = %APPEND% auth.alipan.com, auth.aliyundrive.com
