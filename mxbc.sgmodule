@@ -1,6 +1,10 @@
 #!name=蜜雪冰城￼
 #!desc=签到
-#!arguments=interval:"3 0 * * *",timeout:60
+#!arguments=SCRIPT_NAME:蜜雪冰城获取token,interval:"3 0 * * *",timeout:60
 
 [Script]
+{{{SCRIPT_NAME}}} = type=http-response, pattern=^https:\/\/mxsa\.mxbc\.net\/api\/v1\/customer\/info, script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js, requires-body=true, timeout=60
 蜜雪冰城小程序签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/865c82e42a5730bb696f6700ebb94cee/raw/mxbc.js,wake-system=1
+
+[MITM]
+hostname = %APPEND% mxsa.mxbc.net
