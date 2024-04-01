@@ -3,4 +3,4 @@
 #!arguments=interval:"1 0 * * *",timeout:60
 
 [Script]
-高德地图打车签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, wake-system=1
+高德地图打车签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js,wake-system=1
