@@ -1,6 +1,6 @@
 #!name=高德打车
 #!desc=签到
-#!arguments=SCRIPT_NAME:高德地图获取token,interval:"1 0 * * *",timeout:60
+#!arguments=SCRIPT_NAME:高德地图打车获取token,interval:"1 0 * * *",timeout:60
 
 [Script]
 {{{SCRIPT_NAME}}} = type=http-response, pattern=^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, requires-body=true, max-size=-1, timeout=60
