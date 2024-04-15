@@ -1,0 +1,11 @@
+#!name=建行生活
+#!desc=签到
+#!arguments=SCRIPT_NAME:建行生活获取token,interval:"8 0 * * *",timeout:60
+
+[Script]
+{{{SCRIPT_NAME}}} = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/(clp_coupon|clp_service)\/txCtrl\?txcode=(A3341A038|autoLogin),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+建行生活签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,wake-system=1
+
+[MITM]
+hostname = yunbusiness.ccb.com
+
