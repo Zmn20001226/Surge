@@ -1,5 +1,6 @@
 #!name=高德打车
 #!desc=签到
+#!category=签到模块
 #!arguments=SCRIPT_NAME:高德地图打车获取token,interval:"1 0 * * *",timeout:60
 
 [Script]
