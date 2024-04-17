@@ -1,5 +1,6 @@
 #!name=阿里云盘
 #!desc=签到
+#!category=签到模块
 #!arguments=SCRIPT_NAME:阿里云盘获取token,interval:"0 7,11,17 * * *",timeout:240
 
 [Script]
