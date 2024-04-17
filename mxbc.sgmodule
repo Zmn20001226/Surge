@@ -1,5 +1,6 @@
 #!name=蜜雪冰城￼
 #!desc=签到
+#!category=签到模块
 #!arguments=SCRIPT_NAME:蜜雪冰城小程序获取token,interval:"3 0 * * *",timeout:60
 
 [Script]
