@@ -1,5 +1,6 @@
 #!name=霸王茶姬
 #!desc=签到
+#!category=签到模块
 #!arguments=SCRIPT_NAME:霸王茶姬小程序获取token,interval:"05 00 * * *",timeout:60
 
 [Script]
