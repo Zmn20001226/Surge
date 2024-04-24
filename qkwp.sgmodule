@@ -1,0 +1,12 @@
+#!name=夸克网盘
+#!desc=签到
+#!category=签到模块
+#!arguments=SCRIPT_NAME:夸克云盘获取token,interval:"10 0 * * *",timeout:300
+
+[Script]
+{{{SCRIPT_NAME}}} = type=http-request, pattern=^https:\/\/drive-m.quark.cn\/1\/clouddrive\/capacity\/growth\/sign.+, script-path=quarkcloud.js, timeout=10
+
+夸克网盘签到 = type=cron, cronexp="{{{interval}}}", timeout={{{timeout}}}, script-path=quarkcloud.js
+
+[MITM]
+hostname = %APPEND% drive-m.quark.cn
