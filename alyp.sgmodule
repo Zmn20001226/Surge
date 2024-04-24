@@ -1,7 +1,7 @@
 #!name=阿里云盘
 #!desc=签到
 #!category=签到模块
-#!arguments=SCRIPT_NAME:阿里云盘获取token,interval:"0 7,11,17 * * *",timeout:240
+#!arguments=SCRIPT_NAME:阿里云盘获取token,interval:"0 7,11 * * *",timeout:240
 
 [Script]
 {{{SCRIPT_NAME}}} = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, max-size=-1, timeout=60
