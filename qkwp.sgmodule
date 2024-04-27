@@ -6,7 +6,7 @@
 [Script]
 {{{SCRIPT_NAME}}}获取token = type=http-response, pattern=^https:\/\/drive-pc\.quark\.cn\/1\/clouddrive\/file\/sort, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60
 
-{{{SCRIPT_NAME}}}福利日常收录任务 = type=http-request, pattern=^https:\/\/coral2\.quark\.cn\/quark\/(carbon|welfare)\/(v1|v2)\/signIn, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60
+{{{SCRIPT_NAME}}}福利日常收录任务 = type=http-response, pattern=^https:\/\/coral2\.quark\.cn\/task\/trigger, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60
 
 {{{SCRIPT_NAME}}}空间签到收录任务 = type=http-request, pattern=^https:\/\/coral2\.quark\.cn\/quark\/(carbon|welfare)\/(v1|v2)\/signIn, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60
 
