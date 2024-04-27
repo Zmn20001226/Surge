@@ -2,7 +2,7 @@
 #!desc=将qx的一键导入链接复制到Safari打开可以预览
 
 [Script]
-qx-resource-preview = type=http-request, pattern=^https:\/\/quantumult\.app\/x\/open-app\/add-resource\?remote-resource=, script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js, requires-body=true, max-size=-1, timeout=60
+预览qx一键导入资源 = type=http-request, pattern=^https:\/\/quantumult\.app\/x\/open-app\/add-resource\?remote-resource=, script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qx-resource-preview.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% quantumult.app
