@@ -1,7 +1,7 @@
 #!name=夸克网盘
 #!desc=签到
 #!category=签到模块
-#!arguments=SCRIPT_NAME:夸克网盘,interval:"0 1,10 * * *",timeout:300
+#!arguments=SCRIPT_NAME:夸克网盘,interval:"30 8,22 * * *",timeout:300
 
 [Script]
 {{{SCRIPT_NAME}}}获取token = type=http-response, pattern=^https:\/\/drive-pc\.quark\.cn\/1\/clouddrive\/file\/sort, script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js, requires-body=true, timeout=60
