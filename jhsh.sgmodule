@@ -1,6 +1,6 @@
 #!name=建行生活
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"8 0 * * *",timeout:60
 
 [Script]
