@@ -5,6 +5,3 @@
 
 [Script]
 夸克签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js,wake-system=1
-
-[MITM]
-hostname = %APPEND% coral2.quark.cn, drive-pc.quark.cn
