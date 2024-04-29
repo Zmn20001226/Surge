@@ -1,6 +1,6 @@
 #!name=夸克
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"30 8,22 * * *",timeout:300
 
 [Script]
