@@ -1,6 +1,6 @@
 #!name=霸王茶姬小程序
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"05 00 * * *",timeout:60
 
 [Script]
