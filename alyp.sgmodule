@@ -1,6 +1,6 @@
 #!name=阿里云盘
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"0 7,11 * * *",timeout:300
 
 [Script]
