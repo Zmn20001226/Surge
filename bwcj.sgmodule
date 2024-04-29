@@ -1,14 +1,9 @@
-#!name=霸王茶姬
+#!name=霸王茶姬小程序
 #!desc=签到
 #!category=签到模块
-#!arguments=SCRIPT_NAME:霸王茶姬小程序获取token,interval:"05 00 * * *",timeout:60
+#!arguments=interval:"05 00 * * *",timeout:60
 
 [Script]
-{{{SCRIPT_NAME}}} = type=http-request,pattern=^https?:\/\/(webapi|qmwebapi)\.qmai\.cn\/web\/(catering2-apiserver\/customer-suggest\/query-feedback-config|catering\/crm\/points-info),requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj_token.js
-
 霸王茶姬小程序签到 = type=cron,cronexp="00 {{{interval}}}",timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj.js,wake-system=1
 
 霸王茶姬小程序签到2024 = type=cron,cronexp="02 {{{interval}}}",timeout={{{timeout}}},script-path=https://raw.githubusercontent.com/Guding88/Script/main/bawangchaji/bwcj2024.js,wake-system=1
-
-[MITM]
-hostname = %APPEND% qmwebapi.qmai.cn, webapi.qmai.cn
