@@ -1,6 +1,6 @@
 #!name=沪上阿姨小程序
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"10 0 * * *",timeout:60
 
 [Script]
