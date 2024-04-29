@@ -1,6 +1,6 @@
 #!name=美团
 #!desc=签到
-#!category=签到模块
+#!category=签到
 #!arguments=interval:"0 8 * * *",timeout:60
 
 [Script]
