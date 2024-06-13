@@ -2,6 +2,6 @@
 #!desc=使用Surge规则脚本、快捷指令自动化生成专属规则集
 
 [Script]
-Save-Final-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=global
+Save-Final-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=global&quantity=5&interval=10
 
-Save-China-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=china&matched=1
+Save-China-Rule = type=rule,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Rule-Storage/Rule-Storage.js,argument=region=china&matched=1&quantity=5&interval=10
