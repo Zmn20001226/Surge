@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,amplitudeexperiment.com
 DOMAIN-SUFFIX,appcenter.ms
+DOMAIN-SUFFIX,avatars.githubusercontent.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,bugsnag.com
 DOMAIN-SUFFIX,camo.githubusercontent.com
@@ -61,7 +62,6 @@ DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com
 DOMAIN-SUFFIX,freegpt.art
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,groq.com
@@ -105,6 +105,7 @@ DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,quad9.net
 DOMAIN-SUFFIX,qy0.ru
 DOMAIN-SUFFIX,ratatoskr.org
+DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,revenuecat.com
 DOMAIN-SUFFIX,sereniblue.top
 DOMAIN-SUFFIX,skk.moe
