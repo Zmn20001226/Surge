@@ -1,5 +1,6 @@
 #!name=起点读书
 #!desc=签到
+#!category=签到
 #!arguments=interval:"30 0 * * *",timeout:300
 
 [Script]
