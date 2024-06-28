@@ -1,0 +1,8 @@
+#!name=顺丰速运小程序
+#!desc=签到
+#!category=签到
+#!arguments=interval:"6 0 * * *",timeout:60
+
+[Script]
+顺丰速运小程序签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/1fb1cf9cd7486d30752b1ba29b871e37/raw/sfsy.js,wake-system=1
+
