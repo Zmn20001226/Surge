@@ -1,7 +1,0 @@
-#!name=奶茶多合一
-#!desc=签到
-#!category=签到
-#!arguments=interval:"3 0 * * *",timeout:60
-
-[Script]
-奶茶多合一签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/8b4f5487e0f28786c7dec9c7484dcd5e/raw/teaMilk.js,wake-system=1
