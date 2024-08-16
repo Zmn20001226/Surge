@@ -1,7 +1,0 @@
-#!name=夸克
-#!desc=签到
-#!category=签到
-#!arguments=interval:"30 8,22 * * *",timeout:300
-
-[Script]
-夸克签到 = type=cron,cronexp="{{{interval}}}",timeout={{{timeout}}},script-path=https://gist.githubusercontent.com/Sliverkiss/1589f69e675019b0b685a57a89de9ea5/raw/quarkV2.js,wake-system=1
