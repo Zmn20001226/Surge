@@ -1,0 +1,6 @@
+#!name=BiliBili签到
+#!desc=定时任务
+#!arguments = 定时签到:30 6 * * *
+
+[Script]
+B站每日任务 = type=cron,cronexp="{{{定时签到}}}",timeout=60,script-path=https://raw.githubusercontent.com/ClydeTime/BiliBili/main/js/BiliBiliDailyBonus.js,script-update-interval=0
